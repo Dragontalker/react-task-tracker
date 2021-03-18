@@ -1,10 +1,15 @@
 const Header = (props) => {
 
     return (
-        <header>
+        <header style={headerStyle}>
             <h1>{props.title}</h1>
         </header>
     )
+};
+
+const headerStyle = {
+    color: 'red', 
+    backgroundColor: 'black' 
 };
 
 export default Header;
