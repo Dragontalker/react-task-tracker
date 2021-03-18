@@ -1,15 +1,16 @@
+import PropTypes from 'prop-types';
+import Button from './Button'
+
 const Header = (props) => {
 
     return (
-        <header style={headerStyle}>
+        <header className='header'>
             <h1>{props.title}</h1>
+            <Button color='green' text='hello1'/>
+            <Button color='blue' text='hello2'/>
+            <Button color='red' text='hello3'/>
         </header>
     )
-};
-
-const headerStyle = {
-    color: 'red', 
-    backgroundColor: 'black' 
 };
 
 export default Header;
