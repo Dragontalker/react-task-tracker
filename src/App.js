@@ -1,9 +1,9 @@
 import Header from './components/Header';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Header />
+      <Header title="WOW!"/>
     </div>
   );
 }
